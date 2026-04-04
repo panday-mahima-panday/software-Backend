@@ -1,0 +1,23 @@
+data base connection 2 ways me hota h 
+1.sabhi code ko index.js me rkho and exicute kra do
+2.sabh code ko ooske work ke according alg alg folder me rkho and then sbhi ko index.js me import kra lo and exicute kra lo
+note app connect hota express ke through and data base connect hota mongoose ke through
+3 imp pakage for backend 1.express 2. mongoos,dotenv
+
+nodemon and  prettier both are dev dependancies
+and express ,mongoose and dotenv are only dependeancies
+
+
+for connecting mongoose 
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://127.0.0.1:27017/test');
+
+const Cat = mongoose.model('Cat', { name: String });
+
+const kitty = new Cat({ name: 'Zildjian' });
+kitty.save().then(() => console.log('meow'));
+
+jab bhi aap database se baat krne ki try kroge to problem aa skti h for that u should always used try and catch method of js or promosis and alwayys u have to wait for data for that use Async and await
+
+
+for importing dotenv rather than require ->use -r dotenv/config --experimental-json-modules in package json dev me
