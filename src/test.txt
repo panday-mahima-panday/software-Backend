@@ -21,3 +21,7 @@ jab bhi aap database se baat krne ki try kroge to problem aa skti h for that u s
 
 
 for importing dotenv rather than require ->use -r dotenv/config --experimental-json-modules in package json dev me
+
+
+ npm install jsonwebtoken
+ npm install bcrypt
