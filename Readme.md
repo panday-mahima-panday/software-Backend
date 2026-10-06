@@ -1,4 +1,4 @@
-chai aur code backendgit init
+commnd 
 <!-- git add file_name
 git commit -m "first upload"
 git branch -M main
